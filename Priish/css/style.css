@@ -1,0 +1,83 @@
+/* CSS Document */
+:root{
+	--default-white: #FAFAFA;
+	--highlight-blue-color: #54C2EE;
+	--default-black: #010506;
+}
+a:hover{
+	text-decoration: none !important;
+}
+body{
+	background-color: var(--default-white) !important;
+}
+
+.bg-my-white{
+	background-color: #ffffff !important;
+}
+.bg-my-blue{
+	background-color:var(--highlight-blue-color) !important;
+}
+.bg-my-black{
+	background-color: var(--default-black) !important;
+}
+
+.my-active{
+	color: var(--highlight-blue-color) !important;
+	border-bottom: 3px solid var(--highlight-blue-color);
+	display: inline-block !important;
+}
+.my-brand{
+	letter-spacing:0.2rem;
+}
+.my-box{
+	height: 1200px;
+	border-bottom: 400px solid #fede30;
+	width: 1000px;
+	background: #90de34;
+}
+.nav-item .nav-link{
+	font-size: 0.9rem;
+}
+.height-nav{
+	height: 56px;
+	margin: 0px;
+	width: 100%;
+}
+.main-header{
+	height: 100vh;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	background-color:var(--highlight-blue-color);
+	background-image: url(../images/header-background.jpg);
+	background-size: cover;
+	background-position: left center;
+	color: #ffffff;
+	
+}
+.my-heading{
+	letter-spacing: .5rem;
+}
+.btn-get-started{
+	outline: none;
+}
+.login-nav{
+	background-color: var(--highlight-blue-color);
+	padding: .5rem 1.5rem !important;
+	border-radius: 0.2rem;
+	color: #ffffff !important;
+	margin:auto 20px;
+}
+.login-area{
+	padding: 2rem 3rem;
+	padding-top: 40px;
+	max-width: 400px;
+	background-color: #ffffff;
+	border-radius: 0.5rem;
+	margin:4rem auto auto;
+	box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.2);
+}
+.nav-shadow{
+	box-shadow: 0px 1px 10px -3px rgba(0,0,0,0.3);
+}
